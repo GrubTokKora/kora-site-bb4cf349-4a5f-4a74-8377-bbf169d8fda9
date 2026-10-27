@@ -1,0 +1,725 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Coffee, Tea &amp; Pastry Menu with Prices | Coffee to Grow</title>
+  <meta name="description" content="Full menu and prices at Coffee to Grow in Front Royal, VA: espresso, churro lattes, pour overs, cold brew, tea, hot cocoa, waffles and homemade pastries.">
+  <link rel="canonical" href="https://coffee-to-grow.square.site/menu.html">
+
+  <!-- Open Graph / Social -->
+  <meta property="og:title" content="Coffee, Tea &amp; Pastry Menu with Prices | Coffee to Grow">
+  <meta property="og:description" content="Full menu and prices at Coffee to Grow in Front Royal, VA: espresso, churro lattes, pour overs, cold brew, tea, hot cocoa, waffles and homemade pastries.">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://coffee-to-grow.square.site/menu.html">
+  <meta property="og:image" content="https://deveusblob.blob.core.windows.net/kora-business-images/user-media/bb4cf349-4a5f-4a74-8377-bbf169d8fda9/10ba98a4-a410-4015-99d9-701074e2e5bc/1793082146_vonpxj.webp">
+  <meta name="twitter:card" content="summary_large_image">
+
+  <!-- Favicon -->
+  <link rel="icon" href="https://deveusblob.blob.core.windows.net/kora-business-images/user-media/bb4cf349-4a5f-4a74-8377-bbf169d8fda9/6b8ae00f-9293-46bb-ac0a-80d50fe3d48c/1793008490_ylg83c.ico">
+
+  <!-- kora:fonts --><!-- /kora:fonts -->
+  <link rel="stylesheet" href="assets/styles.css">
+
+  <style>
+    /* Sticky category anchor bar styling */
+    .category-jump-nav {
+      position: -webkit-sticky;
+      position: sticky;
+      top: 5rem;
+      z-index: 30;
+      background-color: var(--color-ground);
+      border-bottom: 1px solid var(--color-border);
+    }
+    .jump-scroll-row {
+      display: flex;
+      align-items: center;
+      gap: 0.75rem;
+      overflow-x: auto;
+      white-space: nowrap;
+      scrollbar-width: none;
+      -ms-overflow-style: none;
+      padding-top: 0.875rem;
+      padding-bottom: 0.875rem;
+    }
+    .jump-scroll-row::-webkit-scrollbar {
+      display: none;
+    }
+    .jump-link {
+      font-size: 0.875rem;
+      font-weight: 500;
+      color: var(--color-muted);
+      transition: color 0.15s ease;
+      flex-shrink: 0;
+    }
+    .jump-link:hover,
+    .jump-link:focus-visible {
+      color: var(--color-primary);
+    }
+    .jump-divider {
+      color: var(--color-border);
+      user-select: none;
+      flex-shrink: 0;
+    }
+
+    /* Menu CSS Columns */
+    .menu-columns {
+      column-count: 1;
+      column-gap: 4rem;
+    }
+    @media (min-width: 1024px) {
+      .menu-columns {
+        column-count: 2;
+      }
+    }
+    .menu-group {
+      break-inside: avoid;
+      page-break-inside: avoid;
+      margin-bottom: 3.5rem;
+    }
+    .category-heading {
+      color: var(--color-primary);
+      font-size: 1.25rem;
+      font-weight: 600;
+      letter-spacing: -0.02em;
+      border-bottom: 1px solid var(--color-border);
+      padding-bottom: 0.5rem;
+      margin-bottom: 1.5rem;
+    }
+  </style>
+
+  <!-- JSON-LD: Menu referencing CafeOrCoffeeShop -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Menu",
+    "@id": "https://coffee-to-grow.square.site/menu.html#menu",
+    "name": "Coffee to Grow Menu",
+    "url": "https://coffee-to-grow.square.site/menu.html",
+    "inLanguage": "en-US",
+    "mainEntityOfPage": "https://coffee-to-grow.square.site/menu.html",
+    "hasMenuSection": [
+      {
+        "@type": "MenuSection",
+        "name": "Espresso",
+        "hasMenuItem": [
+          { "@type": "MenuItem", "name": "Espresso shot", "offers": { "@type": "Offer", "price": "2.99", "priceCurrency": "USD" } },
+          { "@type": "MenuItem", "name": "Americano", "description": "a shot espresso poured over water", "offers": { "@type": "Offer", "price": "3.99", "priceCurrency": "USD" } },
+          { "@type": "MenuItem", "name": "Latte", "offers": { "@type": "Offer", "price": "4.99", "priceCurrency": "USD" } },
+          { "@type": "MenuItem", "name": "Churro latte", "offers": { "@type": "Offer", "price": "5.99", "priceCurrency": "USD" } },
+          { "@type": "MenuItem", "name": "Mocha", "offers": { "@type": "Offer", "price": "4.99", "priceCurrency": "USD" } },
+          { "@type": "MenuItem", "name": "Cookie Monster", "offers": { "@type": "Offer", "price": "5.99", "priceCurrency": "USD" } }
+        ]
+      },
+      {
+        "@type": "MenuSection",
+        "name": "Pour Over Coffee",
+        "hasMenuItem": [
+          { "@type": "MenuItem", "name": "Pour Over Coffee", "description": "Flavored Pour Over Coffee per person", "offers": { "@type": "Offer", "price": "5.25", "priceCurrency": "USD" } },
+          { "@type": "MenuItem", "name": "House Coffee", "offers": { "@type": "Offer", "price": "2.99", "priceCurrency": "USD" } }
+        ]
+      },
+      {
+        "@type": "MenuSection",
+        "name": "Cold Brew",
+        "hasMenuItem": [
+          { "@type": "MenuItem", "name": "Crafted Cold Brew", "offers": { "@type": "Offer", "price": "3.99", "priceCurrency": "USD" } }
+        ]
+      },
+      {
+        "@type": "MenuSection",
+        "name": "Hot Chocolate",
+        "hasMenuItem": [
+          { "@type": "MenuItem", "name": "Gourmet Hot Cocoa", "description": "Real shaved chocolate blended into silky smooth milk", "offers": { "@type": "Offer", "price": "6.99", "priceCurrency": "USD" } },
+          { "@type": "MenuItem", "name": "Hot cocoa", "description": "Hot cocoa powder blended with silky milk topped with whip cream", "offers": { "@type": "Offer", "price": "3.50", "priceCurrency": "USD" } }
+        ]
+      },
+      {
+        "@type": "MenuSection",
+        "name": "Italian soda",
+        "hasMenuItem": [
+          { "@type": "MenuItem", "name": "Italian soda", "description": "Club soda mixed with your choice of fruit flavouring, and optional cream on top", "offers": { "@type": "Offer", "price": "4.50", "priceCurrency": "USD" } }
+        ]
+      },
+      {
+        "@type": "MenuSection",
+        "name": "Homemade Pastries",
+        "hasMenuItem": [
+          { "@type": "MenuItem", "name": "Chocolate Chip Cookie", "offers": { "@type": "Offer", "price": "3.99", "priceCurrency": "USD" } },
+          { "@type": "MenuItem", "name": "Seasonal Muffin", "offers": { "@type": "Offer", "price": "4.50", "priceCurrency": "USD" } },
+          { "@type": "MenuItem", "name": "Seasonal Poptart", "offers": { "@type": "Offer", "price": "4.00", "priceCurrency": "USD" } },
+          { "@type": "MenuItem", "name": "Brownie", "offers": { "@type": "Offer", "price": "2.50", "priceCurrency": "USD" } },
+          { "@type": "MenuItem", "name": "Banana bread", "offers": { "@type": "Offer", "price": "2.99", "priceCurrency": "USD" } },
+          { "@type": "MenuItem", "name": "Scones", "offers": { "@type": "Offer", "price": "4.50", "priceCurrency": "USD" } }
+        ]
+      },
+      {
+        "@type": "MenuSection",
+        "name": "Soda and Juice",
+        "hasMenuItem": [
+          { "@type": "MenuItem", "name": "Soda", "offers": { "@type": "Offer", "price": "1.50", "priceCurrency": "USD" } }
+        ]
+      },
+      {
+        "@type": "MenuSection",
+        "name": "Tea",
+        "hasMenuItem": [
+          { "@type": "MenuItem", "name": "Earl Grey Tea", "offers": { "@type": "Offer", "price": "2.99", "priceCurrency": "USD" } },
+          { "@type": "MenuItem", "name": "Hibiscus Tea", "offers": { "@type": "Offer", "price": "2.99", "priceCurrency": "USD" } },
+          { "@type": "MenuItem", "name": "English Breakfast Tea", "offers": { "@type": "Offer", "price": "2.99", "priceCurrency": "USD" } },
+          { "@type": "MenuItem", "name": "Matcha Latte", "offers": { "@type": "Offer", "price": "4.99", "priceCurrency": "USD" } },
+          { "@type": "MenuItem", "name": "Chai Tea", "offers": { "@type": "Offer", "price": "2.99", "priceCurrency": "USD" } },
+          { "@type": "MenuItem", "name": "Chai Latte", "offers": { "@type": "Offer", "price": "5.99", "priceCurrency": "USD" } },
+          { "@type": "MenuItem", "name": "London Fog", "offers": { "@type": "Offer", "price": "4.99", "priceCurrency": "USD" } }
+        ]
+      },
+      {
+        "@type": "MenuSection",
+        "name": "Breakfast",
+        "hasMenuItem": [
+          { "@type": "MenuItem", "name": "Vanilla Waffle", "offers": { "@type": "Offer", "price": "4.99", "priceCurrency": "USD" } },
+          { "@type": "MenuItem", "name": "Churro Waffle", "description": "Special recipe based on cinnamon add your favorite toppings.", "offers": { "@type": "Offer", "price": "4.99", "priceCurrency": "USD" } }
+        ]
+      },
+      {
+        "@type": "MenuSection",
+        "name": "Blended Drinks",
+        "hasMenuItem": [
+          { "@type": "MenuItem", "name": "Blended drink", "offers": { "@type": "Offer", "price": "4.99", "priceCurrency": "USD" } }
+        ]
+      }
+    ]
+  }
+  </script>
+
+  <script>
+    window.KORA_SITE_CONFIG = {
+      apiBaseUrl: "https://kora-agent.quseappdev.com",
+      businessId: "bb4cf349-4a5f-4a74-8377-bbf169d8fda9",
+      recaptchaSiteKey: "6LfRt44sAAAAACVTvFvGjoufmEcZqZk_pT4T_5Xd"
+    };
+    window.KORA_CONFIG = Object.assign(window.KORA_CONFIG || {}, window.KORA_SITE_CONFIG);
+  </script>
+</head>
+<body data-page="menu">
+  <div>
+    <!-- kora:shell:header -->
+<header class="site-header">
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 h-20 flex items-center justify-between gap-4">
+        <a href="index.html" class="flex items-center gap-3 shrink-0" aria-label="Coffee to Grow homepage">
+          <img
+            id="brand-logo"
+            class="h-10 sm:h-12 w-auto object-contain"
+            src="https://deveusblob.blob.core.windows.net/kora-business-images/user-media/bb4cf349-4a5f-4a74-8377-bbf169d8fda9/6b8ae00f-9293-46bb-ac0a-80d50fe3d48c/1793008490_8s2sc0.png"
+            alt="Coffee to Grow logo"
+            width="180"
+            height="48"
+          >
+          <span class="sr-only">Coffee to Grow</span>
+        </a>
+
+        <nav class="hidden md:flex items-center gap-8" aria-label="Main Navigation">
+          <a data-nav="home" href="index.html" class="site-nav-link">Home</a>
+          <a data-nav="menu" href="menu.html" class="site-nav-link">Menu</a>
+          <a data-nav="faq" href="#faq" class="site-nav-link">Good to know</a>
+          <a data-nav="contact" href="#contact" class="site-nav-link">Contact</a>
+        </nav>
+
+        <div class="flex items-center gap-3">
+          <a href="tel:(540)325-0026" class="btn-tel-nav hidden sm:inline-flex">
+            <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24" aria-hidden="true">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z"/>
+            </svg>
+            <span>(540) 325-0026</span>
+          </a>
+
+          <button
+            type="button"
+            id="mobile-menu-button"
+            class="md:hidden inline-flex items-center justify-center p-2.5 rounded-md text-[#273728] hover:bg-[#E7ECDD] focus:outline-none focus:ring-2 focus:ring-[#273728]"
+            aria-controls="mobile-menu"
+            aria-expanded="false"
+            aria-label="Open primary navigation menu"
+          >
+            <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" id="hamburger-icon" aria-hidden="true">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16" />
+            </svg>
+            <svg class="w-6 h-6 hidden" fill="none" stroke="currentColor" viewBox="0 0 24 24" id="close-icon" aria-hidden="true">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12" />
+            </svg>
+          </button>
+        </div>
+      </div>
+
+      <!-- Mobile Sheet Menu -->
+      <div id="mobile-menu" class="hidden md:hidden border-t border-[#C9D2BD] bg-[#F4F6EE] px-4 pt-4 pb-8 space-y-4">
+        <nav class="flex flex-col space-y-3" aria-label="Mobile Navigation">
+          <a data-nav="home" href="index.html" class="text-xl font-semibold text-[#142016] py-2 border-b border-[#C9D2BD]/40">Home</a>
+          <a data-nav="menu" href="menu.html" class="text-xl font-semibold text-[#142016] py-2 border-b border-[#C9D2BD]/40">Menu</a>
+          <a data-nav="faq" href="#faq" class="text-xl font-semibold text-[#142016] py-2 border-b border-[#C9D2BD]/40">Good to know</a>
+          <a data-nav="contact" href="#contact" class="text-xl font-semibold text-[#142016] py-2 border-b border-[#C9D2BD]/40">Contact</a>
+        </nav>
+        <div class="pt-2">
+          <a href="tel:(540)325-0026" class="w-full flex items-center justify-center gap-2 py-3.5 px-4 bg-[#273728] text-[#F8F3E7] font-semibold rounded text-base">
+            <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24" aria-hidden="true">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z"/>
+            </svg>
+            <span>Call (540) 325-0026</span>
+          </a>
+        </div>
+      </div>
+    </header>
+<!-- /kora:shell:header -->
+
+    <main id="main-content">
+      <!-- kora:section id="menu-intro" -->
+      <section id="menu-intro" class="bg-[#F4F6EE] pt-12 sm:pt-16 pb-0 px-4 sm:px-6 lg:px-8 border-b border-[#C9D2BD]">
+        <div class="max-w-6xl mx-auto">
+          <div class="mb-8 sm:mb-10 text-left">
+            <h1 class="text-4xl sm:text-5xl lg:text-6xl font-semibold tracking-[-0.03em] leading-none text-[#142016] mb-4">
+              Menu
+            </h1>
+            <p class="text-base sm:text-lg text-[#4D5E52] leading-relaxed">
+              Everything below is served daily, 8:40 am to 4:29 pm.
+            </p>
+          </div>
+        </div>
+
+        <!-- Category anchor jump row -->
+        <div class="category-jump-nav -mx-4 sm:-mx-6 lg:-mx-8 px-4 sm:px-6 lg:px-8">
+          <div class="max-w-6xl mx-auto">
+            <nav class="jump-scroll-row" aria-label="Jump to menu category">
+              <a href="#cat-espresso" class="jump-link">Espresso</a>
+              <span class="jump-divider" aria-hidden="true">|</span>
+              <a href="#cat-pour-over-coffee" class="jump-link">Pour Over Coffee</a>
+              <span class="jump-divider" aria-hidden="true">|</span>
+              <a href="#cat-cold-brew" class="jump-link">Cold Brew</a>
+              <span class="jump-divider" aria-hidden="true">|</span>
+              <a href="#cat-hot-chocolate" class="jump-link">Hot Chocolate</a>
+              <span class="jump-divider" aria-hidden="true">|</span>
+              <a href="#cat-italian-soda" class="jump-link">Italian soda</a>
+              <span class="jump-divider" aria-hidden="true">|</span>
+              <a href="#cat-homemade-pastries" class="jump-link">Homemade Pastries</a>
+              <span class="jump-divider" aria-hidden="true">|</span>
+              <a href="#cat-soda-and-juice" class="jump-link">Soda and Juice</a>
+              <span class="jump-divider" aria-hidden="true">|</span>
+              <a href="#cat-tea" class="jump-link">Tea</a>
+              <span class="jump-divider" aria-hidden="true">|</span>
+              <a href="#cat-breakfast" class="jump-link">Breakfast</a>
+              <span class="jump-divider" aria-hidden="true">|</span>
+              <a href="#cat-blended-drinks" class="jump-link">Blended Drinks</a>
+            </nav>
+          </div>
+        </div>
+      </section>
+      <!-- /kora:section -->
+
+      <!-- kora:section id="full-list" -->
+      <section id="full-list" class="bg-[#F4F6EE] py-16 sm:py-24 px-4 sm:px-6 lg:px-8">
+        <div class="max-w-6xl mx-auto">
+          <div class="menu-columns">
+
+            <!-- 1. Espresso -->
+            <div id="cat-espresso" class="menu-group scroll-mt-28">
+              <h2 class="category-heading">Espresso</h2>
+              <div class="space-y-5">
+                <div>
+                  <div class="menu-row">
+                    <span class="text-base sm:text-lg font-semibold text-[#142016]">Espresso shot</span>
+                    <span class="menu-leader" aria-hidden="true"></span>
+                    <span class="menu-price text-base sm:text-lg">$2.99</span>
+                  </div>
+                </div>
+
+                <div>
+                  <div class="menu-row">
+                    <span class="text-base sm:text-lg font-semibold text-[#142016]">Americano</span>
+                    <span class="menu-leader" aria-hidden="true"></span>
+                    <span class="menu-price text-base sm:text-lg">$3.99 - $4.99</span>
+                  </div>
+                  <p class="text-sm text-[#4D5E52] mt-1">a shot espresso poured over water</p>
+                </div>
+
+                <div>
+                  <div class="menu-row">
+                    <span class="text-base sm:text-lg font-semibold text-[#142016]">Latte</span>
+                    <span class="menu-leader" aria-hidden="true"></span>
+                    <span class="menu-price text-base sm:text-lg">$4.99 - $5.99</span>
+                  </div>
+                </div>
+
+                <div>
+                  <div class="menu-row">
+                    <span class="text-base sm:text-lg font-semibold text-[#142016]">Churro latte</span>
+                    <span class="menu-leader" aria-hidden="true"></span>
+                    <span class="menu-price text-base sm:text-lg">$5.99 - $6.99</span>
+                  </div>
+                </div>
+
+                <div>
+                  <div class="menu-row">
+                    <span class="text-base sm:text-lg font-semibold text-[#142016]">Mocha</span>
+                    <span class="menu-leader" aria-hidden="true"></span>
+                    <span class="menu-price text-base sm:text-lg">$4.99 - $5.99</span>
+                  </div>
+                </div>
+
+                <div>
+                  <div class="menu-row">
+                    <span class="text-base sm:text-lg font-semibold text-[#142016]">Cookie Monster</span>
+                    <span class="menu-leader" aria-hidden="true"></span>
+                    <span class="menu-price text-base sm:text-lg">$5.99 - $6.99</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- 2. Pour Over Coffee -->
+            <div id="cat-pour-over-coffee" class="menu-group scroll-mt-28">
+              <h2 class="category-heading">Pour Over Coffee</h2>
+              <div class="space-y-5">
+                <div>
+                  <div class="menu-row">
+                    <span class="text-base sm:text-lg font-semibold text-[#142016]">Pour Over Coffee</span>
+                    <span class="menu-leader" aria-hidden="true"></span>
+                    <span class="menu-price text-base sm:text-lg">$5.25</span>
+                  </div>
+                  <p class="text-sm text-[#4D5E52] mt-1">Flavored Pour Over Coffee per person</p>
+                </div>
+
+                <div>
+                  <div class="menu-row">
+                    <span class="text-base sm:text-lg font-semibold text-[#142016]">House Coffee</span>
+                    <span class="menu-leader" aria-hidden="true"></span>
+                    <span class="menu-price text-base sm:text-lg">$2.99 - $3.99</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- 3. Cold Brew -->
+            <div id="cat-cold-brew" class="menu-group scroll-mt-28">
+              <h2 class="category-heading">Cold Brew</h2>
+              <div class="space-y-5">
+                <div>
+                  <div class="menu-row">
+                    <span class="text-base sm:text-lg font-semibold text-[#142016]">Crafted Cold Brew</span>
+                    <span class="menu-leader" aria-hidden="true"></span>
+                    <span class="menu-price text-base sm:text-lg">$3.99 - $5.99</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- 4. Hot Chocolate -->
+            <div id="cat-hot-chocolate" class="menu-group scroll-mt-28">
+              <h2 class="category-heading">Hot Chocolate</h2>
+              <div class="space-y-5">
+                <div>
+                  <div class="menu-row">
+                    <span class="text-base sm:text-lg font-semibold text-[#142016]">Gourmet Hot Cocoa</span>
+                    <span class="menu-leader" aria-hidden="true"></span>
+                    <span class="menu-price text-base sm:text-lg">$6.99</span>
+                  </div>
+                  <p class="text-sm text-[#4D5E52] mt-1">Real shaved chocolate blended into silky smooth milk</p>
+                </div>
+
+                <div>
+                  <div class="menu-row">
+                    <span class="text-base sm:text-lg font-semibold text-[#142016]">Hot cocoa</span>
+                    <span class="menu-leader" aria-hidden="true"></span>
+                    <span class="menu-price text-base sm:text-lg">$3.50 - $4.50</span>
+                  </div>
+                  <p class="text-sm text-[#4D5E52] mt-1">Hot cocoa powder blended with silky milk topped with whip cream</p>
+                </div>
+              </div>
+            </div>
+
+            <!-- 5. Italian soda -->
+            <div id="cat-italian-soda" class="menu-group scroll-mt-28">
+              <h2 class="category-heading">Italian soda</h2>
+              <div class="space-y-5">
+                <div>
+                  <div class="menu-row">
+                    <span class="text-base sm:text-lg font-semibold text-[#142016]">Italian soda</span>
+                    <span class="menu-leader" aria-hidden="true"></span>
+                    <span class="menu-price text-base sm:text-lg">$4.50</span>
+                  </div>
+                  <p class="text-sm text-[#4D5E52] mt-1">Club soda mixed with your choice of fruit flavouring, and optional cream on top</p>
+                </div>
+              </div>
+            </div>
+
+            <!-- 6. Homemade Pastries -->
+            <div id="cat-homemade-pastries" class="menu-group scroll-mt-28">
+              <h2 class="category-heading">Homemade Pastries</h2>
+              <div class="space-y-5">
+                <div>
+                  <div class="menu-row">
+                    <span class="text-base sm:text-lg font-semibold text-[#142016]">Chocolate Chip Cookie</span>
+                    <span class="menu-leader" aria-hidden="true"></span>
+                    <span class="menu-price text-base sm:text-lg">$3.99</span>
+                  </div>
+                </div>
+
+                <div>
+                  <div class="menu-row">
+                    <span class="text-base sm:text-lg font-semibold text-[#142016]">Seasonal Muffin</span>
+                    <span class="menu-leader" aria-hidden="true"></span>
+                    <span class="menu-price text-base sm:text-lg">$4.50</span>
+                  </div>
+                </div>
+
+                <div>
+                  <div class="menu-row">
+                    <span class="text-base sm:text-lg font-semibold text-[#142016]">Seasonal Poptart</span>
+                    <span class="menu-leader" aria-hidden="true"></span>
+                    <span class="menu-price text-base sm:text-lg">$4.00</span>
+                  </div>
+                </div>
+
+                <div>
+                  <div class="menu-row">
+                    <span class="text-base sm:text-lg font-semibold text-[#142016]">Brownie</span>
+                    <span class="menu-leader" aria-hidden="true"></span>
+                    <span class="menu-price text-base sm:text-lg">$2.50</span>
+                  </div>
+                </div>
+
+                <div>
+                  <div class="menu-row">
+                    <span class="text-base sm:text-lg font-semibold text-[#142016]">Banana bread</span>
+                    <span class="menu-leader" aria-hidden="true"></span>
+                    <span class="menu-price text-base sm:text-lg">$2.99</span>
+                  </div>
+                </div>
+
+                <div>
+                  <div class="menu-row">
+                    <span class="text-base sm:text-lg font-semibold text-[#142016]">Scones</span>
+                    <span class="menu-leader" aria-hidden="true"></span>
+                    <span class="menu-price text-base sm:text-lg">$4.50</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- 7. Soda and Juice -->
+            <div id="cat-soda-and-juice" class="menu-group scroll-mt-28">
+              <h2 class="category-heading">Soda and Juice</h2>
+              <div class="space-y-5">
+                <div>
+                  <div class="menu-row">
+                    <span class="text-base sm:text-lg font-semibold text-[#142016]">Soda</span>
+                    <span class="menu-leader" aria-hidden="true"></span>
+                    <span class="menu-price text-base sm:text-lg">$1.50</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- 8. Tea -->
+            <div id="cat-tea" class="menu-group scroll-mt-28">
+              <h2 class="category-heading">Tea</h2>
+              <div class="space-y-5">
+                <div>
+                  <div class="menu-row">
+                    <span class="text-base sm:text-lg font-semibold text-[#142016]">Earl Grey Tea</span>
+                    <span class="menu-leader" aria-hidden="true"></span>
+                    <span class="menu-price text-base sm:text-lg">$2.99 - $3.99</span>
+                  </div>
+                </div>
+
+                <div>
+                  <div class="menu-row">
+                    <span class="text-base sm:text-lg font-semibold text-[#142016]">Hibiscus Tea</span>
+                    <span class="menu-leader" aria-hidden="true"></span>
+                    <span class="menu-price text-base sm:text-lg">$2.99 - $3.99</span>
+                  </div>
+                </div>
+
+                <div>
+                  <div class="menu-row">
+                    <span class="text-base sm:text-lg font-semibold text-[#142016]">English Breakfast Tea</span>
+                    <span class="menu-leader" aria-hidden="true"></span>
+                    <span class="menu-price text-base sm:text-lg">$2.99 - $3.99</span>
+                  </div>
+                </div>
+
+                <div>
+                  <div class="menu-row">
+                    <span class="text-base sm:text-lg font-semibold text-[#142016]">Matcha Latte</span>
+                    <span class="menu-leader" aria-hidden="true"></span>
+                    <span class="menu-price text-base sm:text-lg">$4.99 - $5.99</span>
+                  </div>
+                </div>
+
+                <div>
+                  <div class="menu-row">
+                    <span class="text-base sm:text-lg font-semibold text-[#142016]">Chai Tea</span>
+                    <span class="menu-leader" aria-hidden="true"></span>
+                    <span class="menu-price text-base sm:text-lg">$2.99 - $3.99</span>
+                  </div>
+                </div>
+
+                <div>
+                  <div class="menu-row">
+                    <span class="text-base sm:text-lg font-semibold text-[#142016]">Chai Latte</span>
+                    <span class="menu-leader" aria-hidden="true"></span>
+                    <span class="menu-price text-base sm:text-lg">$5.99 - $6.99</span>
+                  </div>
+                </div>
+
+                <div>
+                  <div class="menu-row">
+                    <span class="text-base sm:text-lg font-semibold text-[#142016]">London Fog</span>
+                    <span class="menu-leader" aria-hidden="true"></span>
+                    <span class="menu-price text-base sm:text-lg">$4.99 - $5.99</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- 9. Breakfast -->
+            <div id="cat-breakfast" class="menu-group scroll-mt-28">
+              <h2 class="category-heading">Breakfast</h2>
+              <div class="space-y-5">
+                <div>
+                  <div class="menu-row">
+                    <span class="text-base sm:text-lg font-semibold text-[#142016]">Vanilla Waffle</span>
+                    <span class="menu-leader" aria-hidden="true"></span>
+                    <span class="menu-price text-base sm:text-lg">$4.99</span>
+                  </div>
+                </div>
+
+                <div>
+                  <div class="menu-row">
+                    <span class="text-base sm:text-lg font-semibold text-[#142016]">Churro Waffle</span>
+                    <span class="menu-leader" aria-hidden="true"></span>
+                    <span class="menu-price text-base sm:text-lg">$4.99</span>
+                  </div>
+                  <p class="text-sm text-[#4D5E52] mt-1">Special recipe based on cinnamon add your favorite toppings.</p>
+                </div>
+              </div>
+            </div>
+
+            <!-- 10. Blended Drinks -->
+            <div id="cat-blended-drinks" class="menu-group scroll-mt-28">
+              <h2 class="category-heading">Blended Drinks</h2>
+              <div class="space-y-5">
+                <div>
+                  <div class="menu-row">
+                    <span class="text-base sm:text-lg font-semibold text-[#142016]">Blended drink</span>
+                    <span class="menu-leader" aria-hidden="true"></span>
+                    <span class="menu-price text-base sm:text-lg">$4.99</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+          </div>
+        </div>
+      </section>
+      <!-- /kora:section -->
+
+      <!-- kora:section id="menu-close" -->
+      <section id="menu-close" class="w-full bg-[#041F2C] text-[#F8F3E7] py-16 sm:py-24 px-4 sm:px-6 lg:px-8">
+        <div class="max-w-6xl mx-auto grid grid-cols-1 lg:grid-cols-12 gap-12 items-center">
+          
+          <!-- Questions call prompt -->
+          <div class="lg:col-span-7">
+            <span class="block text-xs uppercase tracking-widest text-[#F8F3E7]/70 font-semibold mb-3">
+              Questions about the menu? Call
+            </span>
+            <a href="tel:(540)325-0026" class="inline-block text-3xl sm:text-4xl lg:text-5xl font-semibold tracking-tight text-[#F8F3E7] hover:text-[#E7ECDD] transition-colors tabular-nums focus:outline-none focus:ring-2 focus:ring-[#F8F3E7] focus:ring-offset-4 focus:ring-offset-[#041F2C] rounded">
+              (540) 325-0026
+            </a>
+          </div>
+
+          <!-- Address and serving window -->
+          <div class="lg:col-span-5 border-t lg:border-t-0 lg:border-l border-[#F8F3E7]/20 pt-8 lg:pt-0 lg:pl-10 space-y-3">
+            <span class="block text-xs uppercase tracking-widest text-[#F8F3E7]/70 font-semibold">
+              Visit &amp; Order
+            </span>
+            <address class="not-italic text-lg text-[#F8F3E7] font-medium leading-snug">
+              <a href="https://maps.google.com/?q=916+John+Marshall+Hwy,+Front+Royal,+VA+22630,+USA" target="_blank" rel="noopener noreferrer" class="hover:underline underline-offset-4">
+                916 John Marshall Hwy<br>
+                Front Royal, VA 22630, USA
+              </a>
+            </address>
+            <p class="text-sm text-[#F8F3E7]/80 pt-1">
+              Menu served daily, 8:40 am to 4:29 pm
+            </p>
+          </div>
+
+        </div>
+      </section>
+      <!-- /kora:section -->
+    </main>
+
+    <!-- kora:shell:footer -->
+<footer class="bg-[#041F2C] text-[#F8F3E7] border-t border-[#F8F3E7]/15">
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16">
+        <div class="grid grid-cols-1 md:grid-cols-12 gap-10 lg:gap-12">
+          
+          <!-- Col 1: Identity -->
+          <div class="md:col-span-4 space-y-4">
+            <a href="index.html" class="inline-block" aria-label="Coffee to Grow homepage">
+              <span class="text-2xl font-semibold text-[#F8F3E7] tracking-tight">Coffee to Grow</span>
+            </a>
+            <p class="text-sm text-[#F8F3E7]/80 leading-relaxed max-w-sm">
+              Daytime café on John Marshall Hwy in Front Royal, Virginia. Espresso, churro waffles, handcrafted cold brew, and homemade baked goods.
+            </p>
+          </div>
+
+          <!-- Col 2: Navigation Links -->
+          <div class="md:col-span-2 space-y-3">
+            <span class="block text-xs uppercase tracking-wider text-[#F8F3E7]/60 font-semibold">Navigation</span>
+            <ul class="space-y-2 text-sm">
+              <li><a data-nav="home" href="index.html" class="hover:text-white transition-colors">Home</a></li>
+              <li><a data-nav="menu" href="menu.html" class="hover:text-white transition-colors">Menu</a></li>
+              <li><a data-nav="faq" href="#faq" class="hover:text-white transition-colors">Good to know</a></li>
+              <li><a data-nav="contact" href="#contact" class="hover:text-white transition-colors">Contact</a></li>
+            </ul>
+          </div>
+
+          <!-- Col 3: Serving Hours -->
+          <div class="md:col-span-3 space-y-3">
+            <span class="block text-xs uppercase tracking-wider text-[#F8F3E7]/60 font-semibold">Serving window</span>
+            <div class="text-sm text-[#F8F3E7]/90 space-y-1">
+              <div class="flex justify-between items-baseline border-b border-[#F8F3E7]/10 pb-1">
+                <span>Daily (7 days)</span>
+                <span class="tabular-nums font-medium">8:40 am – 4:29 pm</span>
+              </div>
+              <p class="text-xs text-[#F8F3E7]/70 pt-1">Everything on our menu is served throughout these hours.</p>
+            </div>
+          </div>
+
+          <!-- Col 4: Address & Phone -->
+          <div class="md:col-span-3 space-y-3">
+            <span class="block text-xs uppercase tracking-wider text-[#F8F3E7]/60 font-semibold">Visit &amp; Call</span>
+            <address class="not-italic text-sm text-[#F8F3E7]/90 space-y-1">
+              <a href="https://maps.google.com/?q=916+John+Marshall+Hwy,+Front+Royal,+VA+22630,+USA" target="_blank" rel="noopener noreferrer" class="block hover:underline underline-offset-2">
+                916 John Marshall Hwy<br>
+                Front Royal, VA 22630, USA
+              </a>
+              <div class="pt-2">
+                <a href="tel:(540)325-0026" class="inline-block font-semibold text-[#F8F3E7] hover:underline underline-offset-2 tabular-nums">
+                  (540) 325-0026
+                </a>
+              </div>
+            </address>
+          </div>
+
+        </div>
+
+        <div class="border-t border-[#F8F3E7]/15 mt-12 pt-8 flex flex-col sm:flex-row items-center justify-between gap-4 text-xs text-[#F8F3E7]/60">
+          <p>© <span id="current-year">2025</span> Coffee to Grow. All rights reserved.</p>
+          <p>Front Royal, Warren County, Virginia</p>
+        </div>
+      </div>
+    </footer>
+<!-- /kora:shell:footer -->
+  </div>
+</body>
+</html>
